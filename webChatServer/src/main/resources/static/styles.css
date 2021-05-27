@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title{
+    text-align: center;
+text-transform: uppercase;
+}
+
+#beach{
+    align-content: center;
+    max-width: 90vw;
+    opacity: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bodyText{
+    text-align: center;
+    max-width: 90vw;
+    font-family: Didot;
+    font-size: 2rem;
+}
+
+quote{
+    text-align: center;
+    font-family: Baghdad;
+    font-size: 3rem;
+    margin: 2rem 3rem;
+    color: darkolivegreen;
+    padding-bottom: 100px;
+}
+#houseField{
+    align-content: center;
+    max-width: 90vw;
+    opacity: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+tbody{
+    border: steelblue solid 2px;
+    background-color: lightblue;
+    display: block;
+    height: 150px;
+    overflow-y: scroll;
+}

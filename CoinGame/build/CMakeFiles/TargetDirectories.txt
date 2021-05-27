@@ -1,0 +1,3 @@
+/Users/justinsiebenhaar/justinSiebenhaar/CoinGame/build/CMakeFiles/rebuild_cache.dir
+/Users/justinsiebenhaar/justinSiebenhaar/CoinGame/build/CMakeFiles/edit_cache.dir
+/Users/justinsiebenhaar/justinSiebenhaar/CoinGame/build/CMakeFiles/CoinGame.dir

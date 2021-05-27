@@ -1,0 +1,9 @@
+//
+// Created by Justin Siebenhaar on 3/30/21.
+//
+
+#ifndef THREADSAFEQUEUE_SERIALQUEUETESTS_H
+#define THREADSAFEQUEUE_SERIALQUEUETESTS_H
+
+int SerialQueueTests();
+#endif //THREADSAFEQUEUE_SERIALQUEUETESTS_H

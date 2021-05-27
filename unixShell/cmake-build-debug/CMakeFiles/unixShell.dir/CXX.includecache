@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/unixShell/main.cpp
+iostream
+-
+shelpers.cpp
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/unixShell/shelpers.cpp
+unistd.h
+-
+
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/unixShell/shelpers.cpp
+shelpers.hpp
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/unixShell/shelpers.hpp
+
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/unixShell/shelpers.hpp
+string
+-
+iostream
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+vector
+-
+

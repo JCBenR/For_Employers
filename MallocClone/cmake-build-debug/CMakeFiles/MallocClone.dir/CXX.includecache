@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/MallocClone/MyMalloc.cpp
+sys/mman.h
+-
+iostream
+-
+MyMalloc.h
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/MallocClone/MyMalloc.h
+
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/MallocClone/MyMalloc.h
+cstdlib
+-
+

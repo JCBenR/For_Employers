@@ -1,0 +1,2 @@
+V	220322173212Z		1000	unknown	/C=us/ST=ut/O=utah.edu/OU=msd/CN=serverCerts/emailAddress=justin.siebenhaar@utah.edu
+V	220322173236Z		1001	unknown	/C=us/ST=ut/O=utah.edu/OU=msd/CN=clientCerts/emailAddress=justin.siebenhaar@utah.edu

@@ -1,0 +1,3 @@
+/Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode/CMakeFiles/CoinGame.dir
+/Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode/CMakeFiles/ZERO_CHECK.dir

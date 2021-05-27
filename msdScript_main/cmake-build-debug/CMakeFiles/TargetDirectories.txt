@@ -1,0 +1,3 @@
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/CMakeFiles/MSDscript.dir

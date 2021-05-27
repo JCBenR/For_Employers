@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Homework</title>
+    <script src="addServer.js"></script>
+</head>
+
+<body>
+    <h1>websocket adding machine</h1>
+    <h2>please enter the numbers you want to add below</h2>
+    <label for="numOne">First number you want to Add</label>
+
+    <textarea name="numOne" id="numOne" cols="2" rows="1"></textarea>
+    <br>
+    <br>
+    <br>
+    <label for="numTwo">Second number you want to add</label>
+    <textarea name="numTwo" id="numTwo" cols="2" rows="1"></textarea>
+    <br>
+    <br>
+    <br>
+    <button type="submit" onclick="sendData()">Submit</button>
+    <button type="submit" onclick="wsOpen()">Websocket submit</button>
+    <h1>the answer is: </h1>
+    <h1 id="responseAnswer">0</h1>
+</body>
+
+</html>

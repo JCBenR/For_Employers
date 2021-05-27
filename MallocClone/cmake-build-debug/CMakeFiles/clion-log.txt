@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/justinsiebenhaar/justinSiebenhaar/MSD6013/MallocClone
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/justinsiebenhaar/justinSiebenhaar/MSD6013/MallocClone/cmake-build-debug

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MSD WebChat Login</title>
+    <script src="wsrequest.js"></script>
+</head>
+
+<body>
+<h1>Welcome to MSD WebChat</h1>
+<h3>Please enter a UserName and a Chatroom to join</h3>
+
+<label for="userName">Enter Username</label>
+<textarea name="userName" id="userName" cols="12" rows="1"></textarea>
+<br>
+<br>
+<br>
+<label for="chatRoom">Chatroom to join</label>
+<textarea name="chatRoom" id="chatRoom" cols="12" rows="1"></textarea>
+<br>
+<br>
+<br>
+<button type="submit" id="enterChat" onclick="joinChat()">enter chat</button>
+</body>
+
+</html>

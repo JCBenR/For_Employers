@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		04BD3641C33D486FB461F07A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F7153FEDFE2F498280635D72 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EAD261BDEDC04AB296C94172 /* CMake Rules */,
+			);
+			dependencies = (
+				9020D1D4B03E4A3298FC7FC1 /* PBXTargetDependency */,
+				36CA253C039A4DE58870B690 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F7407587C1294BA4B84BD5F0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5C7776EF66DE4DF8A220B041 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				922EC3D2D11C4F66AC06653E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		385437A39B47423CA3853CB9 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/src/Character.cpp */ = {isa = PBXBuildFile; fileRef = C77621B9928441738B2FEAB3 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/src/Character.cpp */; };
+		3D78EC81FE0F4720AA2B9CA9 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/src/main.cpp */ = {isa = PBXBuildFile; fileRef = AA25ADC2CD3D446CA648BACD /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/src/main.cpp */; };
+		7B7CA16E82684220AA9E152C /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1455CC2C66334B13954C55C1 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1975D3BF4CF54A2F94BC69E4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		4F13134164F2431C8779BDD1 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6033C3EEB10A49528538B12C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AD03BBFE20C84A4B8DFB55BC /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1BC564D761EA4447A1C9579A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 519CA01A89404AD08A26C0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33BEC2915BC4D8F98987129;
+			remoteInfo = CoinGame;
+		};
+		7BA40B1FCAF34F6CB871F27E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 519CA01A89404AD08A26C0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7407587C1294BA4B84BD5F0;
+			remoteInfo = ZERO_CHECK;
+		};
+		90803EF868ED460C9D581462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 519CA01A89404AD08A26C0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7407587C1294BA4B84BD5F0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		139180E1ECCE44D483F5E5F0 /* CoinGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = CoinGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		1455CC2C66334B13954C55C1 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		57CA47DFBE1E46258082C857 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AA25ADC2CD3D446CA648BACD /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		C77621B9928441738B2FEAB3 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/src/Character.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Character.cpp; path = src/Character.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B8AAD29C46648AF86AEB298 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77621B9928441738B2FEAB3 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/src/Character.cpp */,
+				AA25ADC2CD3D446CA648BACD /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		29720FDDF0FC4B6EAE35211E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A7B8753C067F4F6C9326E998 /* CMake Rules */,
+				57CA47DFBE1E46258082C857 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5837E626011B4AF1B846F794 /* CoinGame */ = {
+			isa = PBXGroup;
+			children = (
+				1B8AAD29C46648AF86AEB298 /* Source Files */,
+				1455CC2C66334B13954C55C1 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/CMakeLists.txt */,
+			);
+			name = CoinGame;
+			sourceTree = "<group>";
+		};
+		A7B8753C067F4F6C9326E998 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C8A2528783C945CF8A985206 = {
+			isa = PBXGroup;
+			children = (
+				5837E626011B4AF1B846F794 /* CoinGame */,
+				29720FDDF0FC4B6EAE35211E /* ALL_BUILD */,
+				F3B4B7FB584E4F78A3A11A5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B4B7FB584E4F78A3A11A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139180E1ECCE44D483F5E5F0 /* CoinGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33BEC2915BC4D8F98987129 /* CoinGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E07B68267804EFAA95FBDF9 /* Build configuration list for PBXNativeTarget "CoinGame" */;
+			buildPhases = (
+				44744BFFB10D4BDCBC7E5E40 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0319C16D5289415D8C65AC5E /* PBXTargetDependency */,
+			);
+			name = CoinGame;
+			productName = CoinGame;
+			productReference = 139180E1ECCE44D483F5E5F0 /* CoinGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		519CA01A89404AD08A26C0A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = B8EA63E4C6084E2A8E46076B /* Build configuration list for PBXProject "CoinGame" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6033C3EEB10A49528538B12C /* Debug */,
+				4F13134164F2431C8779BDD1 /* Release */,
+				AD03BBFE20C84A4B8DFB55BC /* MinSizeRel */,
+				1975D3BF4CF54A2F94BC69E4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C8A2528783C945CF8A985206;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				04BD3641C33D486FB461F07A /* ALL_BUILD */,
+				C33BEC2915BC4D8F98987129 /* CoinGame */,
+				F7407587C1294BA4B84BD5F0 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59938ABF7BA74DEF92931864 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8292DD3EED344810AC181391 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		922EC3D2D11C4F66AC06653E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode -f /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		EAD261BDEDC04AB296C94172 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode -f /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44744BFFB10D4BDCBC7E5E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385437A39B47423CA3853CB9 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/src/Character.cpp */,
+				3D78EC81FE0F4720AA2B9CA9 /* /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0319C16D5289415D8C65AC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7407587C1294BA4B84BD5F0 /* ZERO_CHECK */;
+			targetProxy = 90803EF868ED460C9D581462 /* PBXContainerItemProxy */;
+		};
+		36CA253C039A4DE58870B690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7407587C1294BA4B84BD5F0 /* ZERO_CHECK */;
+			targetProxy = 7BA40B1FCAF34F6CB871F27E /* PBXContainerItemProxy */;
+		};
+		9020D1D4B03E4A3298FC7FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33BEC2915BC4D8F98987129 /* CoinGame */;
+			targetProxy = 1BC564D761EA4447A1C9579A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CA981F3C6D243D499D646ED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2DC5B0D891964ED99B1B87AE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2F326C3C7A514FC6885DC147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		353626D6D6C745BEAE590B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libsfml-graphics.2.5.1.dylib /usr/local/lib/libsfml-window.2.5.1.dylib /usr/local/lib/libsfml-system.2.5.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CoinGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		376339DDCA3447B5892F7467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode/build;
+			};
+			name = Release;
+		};
+		4DD8DC67EF1B4762AB8D0B81 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libsfml-graphics.2.5.1.dylib /usr/local/lib/libsfml-window.2.5.1.dylib /usr/local/lib/libsfml-system.2.5.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CoinGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		652C1294E7CA4054BA66AEF6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6CA9963549B74090BC5D88EA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9C0002D987974834AD613B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libsfml-graphics.2.5.1.dylib /usr/local/lib/libsfml-window.2.5.1.dylib /usr/local/lib/libsfml-system.2.5.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CoinGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AADBD354817E411FBD5CFB79 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		BBB1D3937E0B41D28EAE1053 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		CC74503D8C2F40B3AA3FB556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D4FD44FFA4AD40C99D8CFC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DC3F985D455746B9838C959C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode/build;
+			};
+			name = Debug;
+		};
+		E751FD5E4D9449EDAFB25A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F91507EF778E4476A4DF84E8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libsfml-graphics.2.5.1.dylib /usr/local/lib/libsfml-window.2.5.1.dylib /usr/local/lib/libsfml-system.2.5.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CoinGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/justinsiebenhaar/justinSiebenhaar/CoinGame/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C7776EF66DE4DF8A220B041 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E751FD5E4D9449EDAFB25A75 /* Debug */,
+				2F326C3C7A514FC6885DC147 /* Release */,
+				6CA9963549B74090BC5D88EA /* MinSizeRel */,
+				2DC5B0D891964ED99B1B87AE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E07B68267804EFAA95FBDF9 /* Build configuration list for PBXNativeTarget "CoinGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0002D987974834AD613B23 /* Debug */,
+				353626D6D6C745BEAE590B95 /* Release */,
+				4DD8DC67EF1B4762AB8D0B81 /* MinSizeRel */,
+				F91507EF778E4476A4DF84E8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8EA63E4C6084E2A8E46076B /* Build configuration list for PBXProject "CoinGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3F985D455746B9838C959C /* Debug */,
+				376339DDCA3447B5892F7467 /* Release */,
+				AADBD354817E411FBD5CFB79 /* MinSizeRel */,
+				BBB1D3937E0B41D28EAE1053 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7153FEDFE2F498280635D72 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4FD44FFA4AD40C99D8CFC1E /* Debug */,
+				CC74503D8C2F40B3AA3FB556 /* Release */,
+				652C1294E7CA4054BA66AEF6 /* MinSizeRel */,
+				2CA981F3C6D243D499D646ED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 519CA01A89404AD08A26C0A8 /* Project object */;
+}

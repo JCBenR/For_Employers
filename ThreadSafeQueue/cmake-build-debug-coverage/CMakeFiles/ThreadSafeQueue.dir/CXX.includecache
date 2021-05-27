@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/ThreadSafeQueue/ConcurrentQueue.h
+mutex
+-
+iostream
+-
+
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/ThreadSafeQueue/ConcurrentQueueTests.h
+
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/ThreadSafeQueue/SerialQueueTests.h
+
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/ThreadSafeQueue/main.cpp
+ConcurrentQueue.h
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/ThreadSafeQueue/ConcurrentQueue.h
+SerialQueueTests.h
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/ThreadSafeQueue/SerialQueueTests.h
+ConcurrentQueue.h
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/ThreadSafeQueue/ConcurrentQueue.h
+ConcurrentQueueTests.h
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6013/ThreadSafeQueue/ConcurrentQueueTests.h
+cassert
+-
+iostream
+-
+string
+-
+

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MSDscript"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MSDscript">
+				<Option output="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/MSDscript" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 MSDscript"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MSDscript/fast">
+				<Option output="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/MSDscript" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 MSDscript/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Cont.cpp">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Cont.h">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Env.cpp">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Env.h">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Function.cpp">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Parse.cpp">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Parse.h">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Pointers.h">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Step.cpp">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Step.h">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Val.cpp">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/Val.h">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/catch.h">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmdline.cpp">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/cmdline.h">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/expr.cpp">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/expr.h">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/main.cpp">
+			<Option target="MSDscript"/>
+		</Unit>
+		<Unit filename="/Users/justinsiebenhaar/justinSiebenhaar/MSD6015/MSDscript/msdScript_main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/justinsiebenhaar/justinSiebenhaar/MSD6014/CryptoHomeworkWritten/RC4algo/main.cpp
+iostream
+-
+array
+-
+vector
+-
+
